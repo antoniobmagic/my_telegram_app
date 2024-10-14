@@ -1,0 +1,1 @@
+import{v as n}from"./session-request-c628f041.js";import"./index-6c6f32e4.js";async function o(e){const{account:a,params:t}=e;return n(a,t[0]),a.signTypedData(typeof t[1]=="string"?JSON.parse(t[1]):t[1])}export{o as handleSignTypedDataRequest};
